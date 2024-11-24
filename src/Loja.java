@@ -53,9 +53,8 @@ public class Loja {
 
     @Override
     public String toString() {
-        return """
-               ------Dados da loja------
-               Nome: """ + nome
+        return "------Dados da loja------"
+                + "\nNome: " + nome
                 + "\nQuantidade de funcionários: " + quantidadeFuncionarios
                 + "\nSalário Base: " + salarioBaseFuncionario
                 + "\nEndereço: " + endereco
